@@ -1,4 +1,4 @@
- テーブル設計
+# テーブル設計
 
 ## users テーブル
 
@@ -23,7 +23,6 @@
 | title      | string        | null: false       |
 | catch_copy | text          | null: false       |
 | concept    | text          | null: false       |
-
 | user       | references    | foreign_key: true |
 
 ### Association
